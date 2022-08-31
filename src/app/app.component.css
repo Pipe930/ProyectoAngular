@@ -157,23 +157,77 @@ transition: 0.4s;
     border-radius: 10px;
 }
 
-#ofresemos {
+.ofresemos {
     background-color: #D8D8D8;
     color: #060606;
     text-align: center;
 }
 
-#ofresemos .container-ofresemos{
-    padding: 100px 20px;
+.ofresemos .container-ofresemos{
+    padding: 60px 20px;
 }
 
-.articulo div button{
+.btn-informacion{
     padding: 8px;
-    border: none;
-    border-radius: 5px;
-    background-color: #39C539;
+    border: 1px solid #060606;
+    border-radius: 8px;
+    font-size: 15px;
+    background-color: #D8D8D8;
     cursor: pointer;
 }
 
+.modoOscuroOfresemos{
+    background-color: #060606;;
+    color: #D8D8D8;
+}
 
+.modoOscurobtnInformacion{
+    background-color: #060606;
+    color: #D8D8D8;
+    border: 1px solid #D8D8D8;
+}
 
+.formulario-contacto{
+    background-color: #D8D8D8;
+    text-align: center;
+    padding: 20px;
+    width: 90%;
+    max-width: 500px;
+    margin: 100px auto;
+    box-shadow: 5px 15px 15px #0C0C0C;
+    border-radius: 10px;
+}
+
+fieldset{
+    border: none;
+    text-align: left;
+    margin: 20px auto;
+    width: 90%;
+}
+
+.input-contacto{
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #060606;
+    border-radius: 6px;
+    margin-top: 8px;
+}
+
+.label-contacto{
+    font-size: 17px;
+}
+
+.titulo-formulario{
+    font-size: 30px;
+}
+
+.mensaje{
+    width: 100%;
+    margin-top: 8px;
+    border: 1px solid #060606;
+    border-radius: 6px;
+}
+
+.modoOscuroContacto{
+    
+}
