@@ -113,21 +113,35 @@
   </section>
 
   <section class="container-form">
-    <form action="" method="post" class="formulario-contacto">
+    <form action="" method="post" class="formulario-contacto" 
+    [ngClass]="{
+      modoOscuroContacto: mostrarClase
+    }">
       <h2 class="titulo-formulario">Contactanos</h2>
       <fieldset>
         <label for="" class="label-contacto">Nombre</label>
-        <input type="text" name="nombre" id="" required class="input-contacto">
+        <input type="text" name="nombre" id="" required class="input-contacto" 
+        [ngClass]="{
+          modoOscuroInputs: mostrarClase
+        }">
       </fieldset>
       <fieldset>
         <label for="" class="label-contacto">Correo</label>
-        <input type="email" name="correo" id="" required class="input-contacto">
+        <input type="email" name="correo" id="" required class="input-contacto" 
+        [ngClass]="{
+          modoOscuroInputs: mostrarClase
+        }">
       </fieldset>
       <fieldset>
         <label for="" class="label-contacto">Mensaje</label>
-        <textarea name="texto" id="" cols="30" rows="5" class="mensaje"></textarea>
+        <textarea name="texto" id="" cols="30" rows="5" class="mensaje" [ngClass]="{
+          modoOscuroInputs: mostrarClase
+        }"></textarea>
       </fieldset>
-      <button type="submit" class="btn-enviar">Enviar</button>
+      <button type="submit" class="btn-enviar" 
+      [ngClass]="{
+        modoOscuroBtnEnviar: mostrarClase
+      }">Enviar</button>
     </form>
   </section>
   
