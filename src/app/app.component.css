@@ -230,6 +230,7 @@ fieldset{
 }
 
 .btn-enviar{
+    cursor: pointer;
     padding: 10px;
     width: 90%;
     margin: 20px auto;
